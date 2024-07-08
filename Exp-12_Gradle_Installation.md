@@ -14,7 +14,7 @@ sudo yum install java-1.8.0
 java -version
 ```
 
-2. Then, install the Gradle from the link containing Gradle zip file and then, make a directory and unzip the file.
+2. Then, install the Gradle from the link containing Gradle zip file from downloads link(latest) and then, make a directory and unzip the file.
 
 ```bash
 #Install the zip file.
