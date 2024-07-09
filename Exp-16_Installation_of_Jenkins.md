@@ -60,8 +60,9 @@ Click on OK.
 Then type your http://<your_public_ip>:8080 and access to Jenkins website view.
 The, use the administrative password and login to it and then, create a new user and password and then start using the Jenkins to automate the job.
 
-```bash
 
+
+```bash
 # To stop the service:
 sudo systemctl stop jenkins
 ```
