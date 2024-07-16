@@ -60,9 +60,28 @@ Click on OK.
 Then type your http://<your_public_ip>:8080 and access to Jenkins website view.
 The, use the administrative password and login to it and then, create a new user and password and then start using the Jenkins to automate the job.
 
-
-
 ```bash
 # To stop the service:
 sudo systemctl stop jenkins
+```
+
+## Work with Jenkins
+
+1. To work with jenkins, first go to the "Jenkins" instance where jenkins is installed and then, make sure the docker is installed by typing:
+
+```bash
+# Changes from parent to root user.
+sudo su -
+
+# Creates user with name "Jenkins"
+usermod -aG docker jenkins
+
+systemctl restart docker
+```
+
+After some time, to login into jenkins user under docker, type: sudo
+
+```bash
+su - jenkins
+docker run hello-world
 ```
