@@ -138,3 +138,24 @@ read -p "Enter the file name to search in: " filename
 search_pattern "$pattern" "$filename"
 
 ```
+# To calculate the length of the string
+```bash
+string="your_string_here"
+echo -n "$string" | wc -c
+```
+# To concatenate two strings 
+```bash
+str1="Hello, "
+str2="world!"
+result="${str1}${str2}"
+echo "$result"
+```
+#To reverse a string
+```bash
+string="hello, world!"
+reversed=$(echo "$string" | rev)
+echo "$reversed"
+```
+
+
+
