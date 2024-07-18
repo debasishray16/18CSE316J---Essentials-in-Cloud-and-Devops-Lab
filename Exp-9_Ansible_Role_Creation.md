@@ -5,7 +5,7 @@ To check the roles in Ansible directory.
 ```bash
 cd /
 cd etc
-cd ansibleF
+cd ansible
 cd roles
 ls -lS
 ```
@@ -19,8 +19,8 @@ cd / ; cd etc ; cd ansible ; cd roles
 To create roles in Ansible directory, go to parent directory
 
 ```bash
-cd ~
-sudo ansible-galaxy init /etc/ansible/roles database_installation
+cd /etc/ansible/roles
+sudo ansible-galaxy init database_installation
 ```
 
 Now, then check the creation of roles.

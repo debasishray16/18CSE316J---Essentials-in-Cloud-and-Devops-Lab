@@ -81,12 +81,9 @@ VII.Update the EC2 Instance with New Hostname
 
 1.SSH into your EC2 instance.
 2.Edit the hostname configuration
-``` bash
+
+
+
 sudo hostnamectl set-hostname new-hostname
-
-
-
-
-
 
 ```
